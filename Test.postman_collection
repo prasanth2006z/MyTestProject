@@ -1,0 +1,222 @@
+{
+	"id": "bda7ae26-8d1b-b27c-38c0-b45b3b1bd9f0",
+	"name": "Test",
+	"description": "",
+	"order": [
+		"33686f86-f4ba-db87-d6ca-55c6718f0a3a",
+		"e7db587f-7b2c-ea0e-e808-a37daba2d2a9",
+		"e6713512-d539-3d79-6d13-2e9bbf9d71ca",
+		"37718cb8-de0a-81bc-2a23-a026e15ab318"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1525162194276,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "33686f86-f4ba-db87-d6ca-55c6718f0a3a",
+			"headers": "Accept: application/json\nContent-Type: application/json\nuserName: test\npassword: test\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "userName",
+					"value": "test",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/delete",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bda7ae26-8d1b-b27c-38c0-b45b3b1bd9f0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "DeleteAll",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525162195366,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\":\"Lead\",\n\"type\": \"buy\",\n\"stopLoss\":\"210\",\n\"betFrom\":\"betFrom\",\n\"betTo\":\"betTo\",\n\"tgtFrom\":\"tgtFrom\",\n\"tgtTo\":\"tgtFrom\"\n}"
+		},
+		{
+			"id": "37718cb8-de0a-81bc-2a23-a026e15ab318",
+			"headers": "Accept: application/json\nContent-Type: application/json\nuserName: test\npassword: test\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "userName",
+					"value": "test",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/write/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bda7ae26-8d1b-b27c-38c0-b45b3b1bd9f0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Write Values",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525162279559,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\":\"Lead\",\n\"type\": \"buy\",\n\"stopLoss\":\"210\",\n\"bet\":\"betFrom-betTO\",\n\"tgt\":\"tgtFrom-tgtTo\"\n}"
+		},
+		{
+			"id": "e6713512-d539-3d79-6d13-2e9bbf9d71ca",
+			"headers": "Accept: application/json\nContent-Type: application/json\nuserName: test\npassword: test\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "userName",
+					"value": "test",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/count",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bda7ae26-8d1b-b27c-38c0-b45b3b1bd9f0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Show Count",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525162227347,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\":\"Lead\",\n\"type\": \"buy\",\n\"stopLoss\":\"210\",\n\"betFrom\":\"betFrom\",\n\"betTo\":\"betTo\",\n\"tgtFrom\":\"tgtFrom\",\n\"tgtTo\":\"tgtFrom\"\n}"
+		},
+		{
+			"id": "e7db587f-7b2c-ea0e-e808-a37daba2d2a9",
+			"headers": "Accept: application/json\nContent-Type: application/json\nuserName: test\npassword: test\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "userName",
+					"value": "test",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/read?count=0",
+			"queryParams": [
+				{
+					"key": "count",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bda7ae26-8d1b-b27c-38c0-b45b3b1bd9f0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "List",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525162209953,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\":\"Lead\",\n\"type\": \"buy\",\n\"stopLoss\":\"210\",\n\"betFrom\":\"betFrom\",\n\"betTo\":\"betTo\",\n\"tgtFrom\":\"tgtFrom\",\n\"tgtTo\":\"tgtFrom\"\n}"
+		}
+	]
+}
