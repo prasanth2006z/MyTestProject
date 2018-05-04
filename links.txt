@@ -1,0 +1,1 @@
+https://golb.hplar.ch/2017/02/Send-messages-from-Spring-Boot-to-Ionic-2-over-FCM.html
