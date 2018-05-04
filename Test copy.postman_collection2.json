@@ -1,0 +1,260 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Test copy",
+		"_postman_id": "8336fece-f0ea-1eb3-d330-18a210065031",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DeleteAll",
+			"request": {
+				"url": "http://localhost:8080/delete",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "userName",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Lead\",\n\"type\": \"buy\",\n\"stopLoss\":\"210\",\n\"betFrom\":\"betFrom\",\n\"betTo\":\"betTo\",\n\"tgtFrom\":\"tgtFrom\",\n\"tgtTo\":\"tgtFrom\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "List",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/read?count=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"read"
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "0",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "3a032f4c-2cb7-4f3b-b2ec-94c1dcb331dc",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Lead\",\n\"type\": \"buy\",\n\"stopLoss\":\"210\",\n\"betFrom\":\"betFrom\",\n\"betTo\":\"betTo\",\n\"tgtFrom\":\"tgtFrom\",\n\"tgtTo\":\"tgtFrom\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Show Count",
+			"request": {
+				"url": "http://localhost:8080/count",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "3a032f4c-2cb7-4f3b-b2ec-94c1dcb331dc",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Lead\",\n\"type\": \"buy\",\n\"stopLoss\":\"210\",\n\"betFrom\":\"betFrom\",\n\"betTo\":\"betTo\",\n\"tgtFrom\":\"tgtFrom\",\n\"tgtTo\":\"tgtFrom\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Write Values",
+			"request": {
+				"url": "http://localhost:8080/write/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "3a032f4c-2cb7-4f3b-b2ec-94c1dcb331dc",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Lead\",\n\"type\": \"buy\",\n\"stopLoss\":\"210\",\n\"bet\":\"betFrom-betTO\",\n\"tgt\":\"tgtFrom-tgtTo\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"url": "http://localhost:8080/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "userName",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "ce506f78-a5f9-4e50-ac67-809cbf754d92",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"userName\":\"test\",\n\"password\": \"test\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"url": "http://localhost:8080/logout",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "userName",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"value": "test",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "f66c73d4-b2bb-48fb-a658-07c6d18a630e",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
